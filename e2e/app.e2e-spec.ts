@@ -11,4 +11,9 @@ describe('angular-forms-app-one App', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('Book Form');
   });
+
+  it('should have a title element', () => {
+    page.navigateTo();
+    expect(page.getTitleElement()).toBeDefined();
+  });
 });
