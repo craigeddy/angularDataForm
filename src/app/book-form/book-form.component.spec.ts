@@ -24,4 +24,12 @@ describe('BookFormComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have a valid model', () => {
+    expect(component.model).toBeTruthy();
+  })
+
+  it('should have model title="foo"', () => {
+    expect(component.model.title).toBe('foo');
+  })
 });

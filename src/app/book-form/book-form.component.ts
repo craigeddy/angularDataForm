@@ -7,12 +7,12 @@ import { Book } from '../book.model';
   styleUrls: ['./book-form.component.css']
 })
 export class BookFormComponent implements OnInit {
-  model = new Book(1, '', '', 'http://')
+  model = new Book(1, 'foo', '', 'http://')
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  get currentBook() { return JSON.stringify(this.model); }
+  get currentBookAsJSON() { return JSON.stringify(this.model); }
 }
