@@ -1,5 +1,9 @@
 # AngularFormsAppOne
 
+Inspired by the post at http://codingthesmartway.com/angular-2-forms-tutorial-introduction/. The following was changed from this post however:
+
+- instead of `npm install -g angular-cli` use `npm install -g @angular/cli`
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
 ## Development server
