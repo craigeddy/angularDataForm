@@ -1,6 +1,10 @@
 # AngularFormsAppOne
 
-Inspired by the post at http://codingthesmartway.com/angular-2-forms-tutorial-introduction/. The following was changed from this post however:
+Inspired by the post at http://codingthesmartway.com/angular-2-forms-tutorial-introduction/. 
+
+First I installed Node and updated npm using the instructions found at https://docs.npmjs.com/getting-started/installing-node
+
+The following was changed from the original post however:
 
 - instead of `npm install -g angular-cli` use `npm install -g @angular/cli`
 - installed the Chrome Debugging Extension for VS Code
